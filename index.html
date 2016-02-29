@@ -1,9 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hola Coursera!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module2</title>
+<style>
+
+/********** Base styles **********/
+}
+h1 {
+  color: black;
+  font-size: 42px;
+    }
+
+
+.row > div {
+  border: 1px solid black;
+  background-color: #3DD4F4;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 7px;
+  font-family: Helvetica;
+  color: white;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px){
+  .col-lg-1{
+    float: inherit;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 16.66%;
+  }
+    
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-2{
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  
+  @media (min-width: 758px) and (max-width: 1199px) {
+  .col-xs-3{
+    float: center;
+    border: 1px solid green;
+  }
+  .col-xs-3 {
+    width: 16.66%;
+  }
+  
+}
+
+</style>
 </head>
 <body>
-<h1>Hola Coursera! Soy yo Hijo de puta</h1>
+<h1>First html exercise</h1>
+<div>
+<div class="container-fluid">
+<div class="row">
+      <div class="col-lg-1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+      <div class="col-md-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+      <div class="col-xs-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+      </div>
+ </div>
+</div>
 </body>
 </html>
